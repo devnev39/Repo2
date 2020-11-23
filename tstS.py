@@ -1,6 +1,8 @@
 import socket
 import threading
 
+#multithreaded server with two ends not possible with one console
+
 lock = threading.Lock()
 
 listener = socket.socket()
